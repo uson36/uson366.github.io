@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+    list-style-type: none;
+    user-select: none;
+    color: yellowgreen;
+    font-family: "Sixtyfour", sans-serif;
+}
+body{
+    background-color: black;
+}
+/*1stContainer*/
+.container{
+    height: 25rem; 
+    width: auto;
+    position: relative;
+}
+article{
+    text-align: center;
+    border: 2px yellowgreen solid;
+    padding: 3rem 20rem;
+    font-size: 1.2rem;
+}
+.fPic{
+    height: 5rem;
+    width: auto;
+    opacity: 0;
+    margin: 1.2rem 0rem; 
+}
+@keyframes anima{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.hidden{
+    opacity: 1;
+    animation-name: anima;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+}
+.resultHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondUL{
+    display:inline;
+    text-align: center;
+}
+.secondUL li{
+    font-size: 1rem;
+}
+.wpmLabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*2ndContainer*/
+.container2{
+    padding: 0.1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 ul{
+    display: inline;
+    text-align: center;
+}
+#inText{
+    text-align: center;
+    height: 2rem;
+    width: auto;
+    margin: 3.5rem 0rem;
+    background-color: transparent;
+    border: 0.1rem yellowgreen solid;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    display: inline;
+    font-size: 2.2rem;
+}
+#letterDisplay, #letterInputDisplay, h3{
+    text-align: center;
+    height: 5rem;
+    width: auto;
+    padding: 0rem 1rem;
+}
